@@ -34,9 +34,11 @@ Full-stack engineer who writes. Currently building at the intersection of **AI a
 
 I run an AI science blog on WeChat Official Accounts, maintain a growing Obsidian knowledge base, and ship small tools that connect Claude to the real web — scraping, writing pipelines, visual card generation. All of it glued together with Claude Code skills and custom workflows.
 
+Also tinkered with AR hardware — forked and customized the Leap Motion North Star headset design. More on that below.
+
 ```
 Current focus  →  AI科普笔记 (WeChat) · Claude Code Skills · Obsidian + AI
-Stack          →  Python · TypeScript · Node.js · Astro · Playwright
+Stack          →  Python · TypeScript · Node.js · Astro · Playwright · C
 Belief         →  Tools should compound. Notes should think. AI should do the boring parts.
 ```
 
@@ -52,28 +54,28 @@ Belief         →  Tools should compound. Notes should think. AI should do the 
 <tr>
 <td width="50%">
 
-### [Glance](https://github.com/airbate/Glance)
-A system-level tool written in C — low-level, fast, built to understand how things work under the hood.
+### [ProjectNorthStar](https://github.com/airbate/ProjectNorthStar) `fork`
+Leap Motion's open-source AR headset design. Forked the original, made hardware tweaks and improvements along the way.
 
 </td>
 <td width="50%">
 
-### [wechat-program](https://github.com/airbate/wechat-program)
-Online quiz mini-program on WeChat. Full-stack JavaScript, real users, real traffic.
+### [Glance](https://github.com/airbate/Glance)
+A system-level tool written in C — low-level, fast, built to understand how things work under the hood.
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### [tank-battle](https://github.com/airbate/tank-battle)
-Classic tank battle game in Pygame. Fun, polished, arcade-style.
+### [wechat-program](https://github.com/airbate/wechat-program)
+Online quiz mini-program on WeChat. Full-stack JavaScript, real users, real traffic.
 
 </td>
 <td width="50%">
 
-### [ideal-octo-adventure](https://github.com/airbate/ideal-octo-adventure)
-Personal blog built with Astro. Clean, fast, Markdown-driven.
+### [tank-battle](https://github.com/airbate/tank-battle)
+Classic tank battle game in Pygame. Fun, polished, arcade-style.
 
 </td>
 </tr>
