@@ -2,11 +2,13 @@
 
 ```
 
-   █████  ██ ██████  ██████   █████  ████████ ███████ 
-  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ██      
-  ███████ ██ ██████  ██████  ███████    ██    █████   
-  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ██      
-  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ███████ 
+   █████  ██ ██████  ██████   █████  ████████ ███████ 
+  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ██      
+  ███████ ██ ██████  ██████  ███████    ██    █████ 
+  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ██   
+  ██   ██ ██ ██   ██ ██   ██ ██   ██    ██    ███████
+
+                 水 墨 流 韵  ·  Ink Flow
 
 ```
 
@@ -15,6 +17,7 @@
 <div align="center">
 
 ### Building tools, writing words, making AI do real work.
+### 造工具 · 写文字 · 让 AI 干该干的活
 
 [![GitHub followers](https://img.shields.io/github/followers/airbate?style=flat&logo=github&color=333&labelColor=111)](https://github.com/airbate)
 [![Visitors](https://komarev.com/ghpvc/?username=airbate&style=flat&color=555)]()
@@ -36,10 +39,14 @@ I run an AI science blog on WeChat Official Accounts, maintain a growing Obsidia
 
 Also tinkered with AR hardware — forked and customized the Leap Motion North Star headset design. More on that below.
 
+中文：全栈开发者，写代码也写字。日常在 **AI Agent**、**内容系统**、**本地优先工具链** 的交叉地带造轮子。维护一个微信公众号上的 AI 科普专栏 + 一套持续生长的 Obsidian 知识库，业余时间折腾过 AR 硬件（fork 了 Leap Motion North Star）。
+
 ```
 Current focus  →  AI科普笔记 (WeChat) · Claude Code Skills · Obsidian + AI
-Stack          →  Python · TypeScript · Node.js · Astro · Playwright · C
+最近在搞        →  奇门 / 紫微 / 八字 AI 排盘 · WebGL 流体渲染 · 内容资产工程
+Stack          →  Python · TypeScript · Node.js · Astro · Playwright · C · GLSL
 Belief         →  Tools should compound. Notes should think. AI should do the boring parts.
+信条            →  工具要复利，笔记要会思考，AI 干该干的活
 ```
 
 <br>
@@ -54,28 +61,31 @@ Belief         →  Tools should compound. Notes should think. AI should do the 
 <tr>
 <td width="50%">
 
-### [ProjectNorthStar](https://github.com/airbate/ProjectNorthStar) `fork`
-Leap Motion's open-source AR headset design. Forked the original, made hardware tweaks and improvements along the way.
+### [shuimo-liuyun](https://github.com/airbate/shuimo-liuyun)
+**水墨流韵 / Ink Flow** — interactive WebGL fluid simulation of Chinese ink on rice paper. Stable Fluids solver (9 GLSL shaders), five traditional pigments via Beer-Lambert absorption, 13-rib folding fan export. 单文件、零依赖。
+<br><sub>WebGL · GLSL · Stable Fluids · Canvas 2D</sub>
 
 </td>
 <td width="50%">
 
-### [Glance](https://github.com/airbate/Glance)
-A system-level tool written in C — low-level, fast, built to understand how things work under the hood.
+### [Numerologist_skills](https://github.com/airbate/Numerologist_skills)
+An engineering framework to stop LLM hallucinations in Chinese astrology — fixed-step 奇门遁甲 / 紫微斗数 / 八字排盘 skills for Claude Code / Codex / Grok.
+<br><sub>Claude Code Skills · Python · Deterministic Computation</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### [wechat-program](https://github.com/airbate/wechat-program)
-Online quiz mini-program on WeChat. Full-stack JavaScript, real users, real traffic.
+### [ProjectNorthStar](https://github.com/airbate/ProjectNorthStar) `fork`
+Leap Motion's open-source AR headset design. Forked the original, made hardware tweaks and improvements along the way.
 
 </td>
 <td width="50%">
 
-### [tank-battle](https://github.com/airbate/tank-battle)
-Classic tank battle game in Pygame. Fun, polished, arcade-style.
+### [ideal-octo-adventure](https://github.com/airbate/ideal-octo-adventure)
+Personal blog built with Astro. Source for the writing I publish on WeChat and elsewhere.
+<br><sub>Astro · MDX · Static Site</sub>
 
 </td>
 </tr>
@@ -107,7 +117,7 @@ Classic tank battle game in Pygame. Fun, polished, arcade-style.
 ### Connect
 
 [![Email](https://img.shields.io/badge/qw20060930qw@163.com-333?style=flat&logo=gmail)](mailto:qw20060930qw@163.com)
-[![Blog](https://img.shields.io/badge/blog-airbate.github.io-333?style=flat&logo=astro)](https://airbate.github.io)
+[![Blog](https://img.shields.io/badge/blog-ideal--octo--adventure.vercel.app-333?style=flat&logo=astro)](https://ideal-octo-adventure.vercel.app)
 [![X](https://img.shields.io/badge/@airbate-333?style=flat&logo=x)](https://x.com/airbate)
 
 </div>
