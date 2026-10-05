@@ -1,6 +1,6 @@
 <div align="center">
 
-# airbate
+<img src="assets/bocchi-banner.png" width="100%" alt="airbate — 小孤独抱着吉他的粉色主题横幅" />
 
 **AI 庄周是否梦到电子蝴蝶**
 
@@ -8,13 +8,15 @@
 
 Building tools, writing words, connecting AI to the real world.
 
-[Projects](#selected-projects--精选项目) · [About](#about--关于我) · [Contact](#contact--联系)
+🎸 [SETLIST](#-setlist--项目歌单) · 🩷 [BACKSTAGE](#-backstage--关于我) · ✉️ [SAY HI](#-encore--联系)
+
+<sub>社恐归社恐，commit 还是要交的。 / A little shy. Still shipping.</sub>
 
 </div>
 
----
+<p align="center"><img src="assets/soundwave.svg" width="640" alt="粉色音浪与蓝黄点缀分隔线" /></p>
 
-## About · 关于我
+## 🩷 Backstage · 关于我
 
 全栈开发者，写代码也写字。关注 **AI Agent、嵌入式与机器人、本地优先工具链**，喜欢把模型、软件和硬件接起来，做出能实际使用的东西。
 
@@ -22,62 +24,101 @@ Building tools, writing words, connecting AI to the real world.
 
 I'm a full-stack developer working across **AI agents, embedded systems, robotics, and local-first tools**. My projects range from browser automation and desktop displays to robot perception and interactive graphics. I also write about AI and maintain an Obsidian knowledge base.
 
-## Working on · 最近在做
+## 🎧 Soundcheck · 最近在做
 
 - **AI 工作流**：用自然语言规划网页任务，让执行过程可审阅、可回放。
 - **桌面硬件**：把待办、日程、Git 状态和 Agent 动态放到桌边的反射屏 / 墨水屏上。
 - **应用原型**：化验单科普解释、报告趋势追踪，以及面向实际场景的 AI 工具。
 - **知识与创作**：AI 科普、内容工作流、Obsidian，以及交互式水墨实验。
 
-## Selected projects · 精选项目
+## 🎸 Setlist · 项目歌单
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<sub>TRACK 01</sub>
 
 ### [Glance](https://github.com/airbate/Glance)
 
-桌边的 AI 副屏：本地 daemon 将待办、日程、Git 和 Agent 状态渲染成单色帧，推送到 ESP32 反射屏或 M5Paper；配有桌面宠物和 Agent hooks。
+桌边的 AI 副屏，把待办、日程、Git 和 Agent 状态推到反射屏 / 墨水屏。
 
-An ambient desktop display for tasks, schedules, Git, and AI agent activity.
+<sub>An ambient display for tasks & AI activity.</sub>
 
-`ESP32` · `C++` · `Python` · `Pillow` · `RLCD / e-paper`
+**ESP32 · C++ · Python · e-paper**
+
+</td>
+<td width="50%" valign="top">
+
+<sub>TRACK 02</sub>
 
 ### [FlowPilot](https://github.com/airbate/flowpilot)
 
-自然语言网页流程自动化：Nemotron 规划步骤，Tavily 读取网页，Playwright 执行交互。支持执行前审阅与修改、实时进度、截图回放和 CSV 导出。
+自然语言规划网页任务，支持审阅修改、实时执行、截图回放和 CSV 导出。
 
-A web automation copilot with reviewable plans, live execution events, and replay evidence.
+<sub>Reviewable plans. Replayable automation.</sub>
 
-`Python` · `FastAPI` · `React` · `Playwright` · `Nemotron` · `Tavily`
+**FastAPI · React · Playwright · Nemotron**
 
-### [LabLens · 化验单翻译官](https://github.com/airbate/lablens)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-上传化验单，识别指标并提供通俗解释、异常提示、多次报告趋势和就诊问题清单。定位为科普与辅助工具，不提供诊断。
+<sub>TRACK 03</sub>
 
-A lab report interpreter for accessible explanations and longitudinal tracking, with explicit non-diagnostic boundaries.
+### [LabLens](https://github.com/airbate/lablens)
 
-`Python` · `FastAPI` · `OCR` · `SQLite`
+化验单指标识别、通俗解释和多次报告趋势追踪；只做科普与辅助，不提供诊断。
+
+<sub>Understand lab reports. Track changes.</sub>
+
+**Python · OCR · FastAPI · SQLite**
+
+</td>
+<td width="50%" valign="top">
+
+<sub>TRACK 04</sub>
 
 ### [LIMO Person Following](https://github.com/airbate/limo-person-following)
 
-基于 LIMO 机器人的行人跟随系统：MobileNet-SSD 检测、IoU 追踪、深度定位和 P 控制，结合限速、超距停车与通信看门狗。
+从行人检测与深度定位，到带限速和看门狗的机器人跟随控制。
 
-Person following on a mobile robot, connecting visual perception to motion control.
+<sub>Visual perception meets motion control.</sub>
 
-`Python` · `ROS` · `OpenCV` · `MobileNet-SSD` · `Jetson Nano`
+**ROS · OpenCV · MobileNet-SSD**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<sub>TRACK 05</sub>
 
 ### [水墨流韵 · Ink Flow](https://github.com/airbate/shuimo-liuyun)
 
-交互式 WebGL 水墨模拟，把流体计算和传统水墨的视觉效果放进浏览器。
+浏览器里的交互式水墨模拟，让流体计算带一点艺术感。
 
-An interactive WebGL simulation of Chinese ink on rice paper.
+<sub>Chinese ink, flowing through WebGL.</sub>
 
-`WebGL` · `GLSL` · `Stable Fluids` · `Canvas 2D`
+**WebGL · GLSL · Stable Fluids**
 
-### [个人博客](https://github.com/airbate/ideal-octo-adventure)
+</td>
+<td width="50%" valign="top">
 
-用 Astro 搭建的个人博客，记录技术探索与写作。
+<sub>TRACK 06</sub>
 
-My personal blog, built with Astro.
+### [个人博客 · Field Notes](https://github.com/airbate/ideal-octo-adventure)
 
-`Astro` · `TypeScript` · `Tailwind CSS`
+记录技术探索、AI 科普与创作。工具之外，也留一点文字。
+
+<sub>Experiments, stories & things learned.</sub>
+
+**Astro · TypeScript · Tailwind CSS**
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary>More experiments · 其他探索</summary>
@@ -89,7 +130,7 @@ My personal blog, built with Astro.
 
 </details>
 
-## Toolbox · 常用工具
+## 🎛️ Pedalboard · 常用工具
 
 | 方向 | 技术 |
 | --- | --- |
@@ -98,7 +139,7 @@ My personal blog, built with Astro.
 | 硬件与机器人 | C / C++ · ESP32 · ROS · OpenCV |
 | 图形与知识管理 | WebGL · GLSL · Obsidian |
 
-## Contact · 联系
+## ✉️ Encore · 联系
 
 [Email](mailto:qw20060930qw@163.com) · [Blog](https://ideal-octo-adventure.vercel.app) · [X / @airbate](https://x.com/airbate)
 
@@ -107,5 +148,6 @@ My personal blog, built with Astro.
 ---
 
 <div align="center">
-<sub>工具要复利，笔记要会思考，AI 干该干的活。<br>Updated · 2026-10-05</sub>
+<img src="assets/soundwave.svg" width="640" alt="粉色音浪" /><br>
+<sub>🎸 One more commit before the encore.<br>工具要复利，笔记要会思考，AI 干该干的活。<br>Updated · 2026-10-05 · Unofficial Bocchi fan theme</sub>
 </div>
