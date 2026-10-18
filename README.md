@@ -33,6 +33,8 @@ Building tools, writing words, connecting AI to the real world.
 - **AI 应用与自动化**：网页任务执行、报告解读，以及面向日常场景的应用原型。
 - **硬件与创作**：桌面副屏、机器人、AI 科普和个人知识库。
 
+<p align="center"><img src="assets/bocchi-robot.png" width="420" alt="小孤独和小机器人一起看笔记本电脑" /></p>
+
 ## 🎸 Setlist · 项目歌单
 
 <table>
@@ -160,6 +162,8 @@ Building tools, writing words, connecting AI to the real world.
 [Email](mailto:qw20060930qw@163.com) · [Blog](https://ideal-octo-adventure.vercel.app) · [X / @airbate](https://x.com/airbate)
 
 欢迎交流 AI Agent、具身智能、开发者工具和创业中的实践。
+
+<p align="center"><img src="assets/bocchi-guitar-nap.png" width="360" alt="抱着吉他打盹的小孤独，身边飘着星星和音符" /></p>
 
 ---
 
